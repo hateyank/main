@@ -12,7 +12,7 @@ body{
 margin:0;
 font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 color:#e6eef6;
-/* полупрозрачный градиент фон */
+/* фоняра */
 background:linear-gradient(180deg, rgba(7,16,37,0.85) 0%, rgba(15,23,32,0.85) 100%), url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1280&q=80') no-repeat center/cover;
 min-height:100vh;
 display:flex;
@@ -36,18 +36,18 @@ padding:32px;
 .socials{display:flex;gap:8px}
 .btn{padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#8b5cf6);color:#04222b;font-weight:700;text-decoration:none}
 @media (max-width:480px){.head{flex-direction:row}.meta h1{font-size:18px}.avatar{width:76px;height:76px}}
-/* --- small helper classes for easy editing --- */
+/* --- основа кода --- */
 .hidden{display:none}
 </style>
 </head>
 <body>
 <div class="wrap">
 <div class="card">
-<!-- Редактируй отсюда: -->
+<!--  -->
 <div class="head">
-  <div class="avatar" id="Y">
+  <div class="avatar" id="avatar">
     <img id="avatar-img" src="-" 
-         alt="avatar" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
+         alt="Y" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
   </div>
   <div class="meta">
     <h1 id="display-name">yank</h1>
@@ -57,7 +57,7 @@ padding:32px;
 
 
 <div class="links" id="links">
-<!-- Примеры ссылок: сотрёшь/заменишь на свои -->
+<!-- кнопки -->
 <a class="link" href="https://discord.gg/52Z3J3NqWQ" target="_blank" rel="noopener noreferrer">
 <div class="ico">📨</div>
 <div>
